@@ -40,16 +40,16 @@ geschützten Admin-Bereich verwalten können.
 ## Screenshots
 
 ### Startseite
-![Startseite](screenshots/home.png)
+![Startseite](screenshot/home.png)
 
 ### Motorrad durch Kategorie
-![Filter](screenshots/kategorie.png)
+![Filter](screenshot/kategorie.png)
 
 ### Produktdetails & Bewertung
-![Produktdetails](screenshots/details.png)
+![Produktdetails](screenshot/details.png)
 
 ### Regesteration
-![Regesteration](screenshots/Regesteration.png)
+![Regesteration](screenshot/Regesteration.png)
 
 
 ---
