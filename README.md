@@ -42,7 +42,7 @@ geschützten Admin-Bereich verwalten können.
 ### Startseite
 ![Startseite](screenshot/home.png)
 
-### Motorrad durch Kategorie
+### Motorräder durch Kategorie
 ![Filter](screenshot/kategorie.png)
 
 ### Produktdetails & Bewertung
