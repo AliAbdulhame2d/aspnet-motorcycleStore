@@ -48,8 +48,8 @@ geschützten Admin-Bereich verwalten können.
 ### Produktdetails & Bewertung
 ![Produktdetails](screenshot/details.png)
 
-### Regesteration
-![Regesteration](screenshot/regesteration.png)
+### Registration
+![Registration](screenshot/regesteration.png)
 
 
 ---
