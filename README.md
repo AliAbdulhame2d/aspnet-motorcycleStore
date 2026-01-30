@@ -49,7 +49,7 @@ geschützten Admin-Bereich verwalten können.
 ![Produktdetails](screenshot/details.png)
 
 ### Regesteration
-![Regesteration](screenshot/Regesteration.png)
+![Regesteration](screenshot/regesteration.png)
 
 
 ---
