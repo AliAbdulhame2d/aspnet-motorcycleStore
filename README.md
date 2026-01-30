@@ -23,7 +23,7 @@ geschützten Admin-Bereich verwalten können.
 
 ##  Funktionen
 
-### 👥 Benutzerfunktionen
+###  Benutzerfunktionen
 - Registrierung und Anmeldung von Benutzern
 - Anzeige und Durchsuchen von Motorrädern
 - Filterung nach Motorradtyp / Kategorie
