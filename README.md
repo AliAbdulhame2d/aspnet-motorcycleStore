@@ -63,6 +63,6 @@ Demonstration praktischer Kenntnisse in der ASP.NET-Backend-Entwicklung.
 ---
 
 ##  Autor
-Ali Bdulhameed /2017  
+Ali Adulhameed /2017  
 
 
