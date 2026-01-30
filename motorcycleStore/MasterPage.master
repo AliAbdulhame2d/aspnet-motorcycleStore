@@ -1,0 +1,228 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head runat="server">
+
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+
+        .auto-style1 {
+            width: 503px;
+        }
+
+
+        .leftNav{
+            width:198px;
+            height:35px;
+        }
+
+        .leftNav ul{
+            list-style:none;
+            margin-left: -29px;
+        }
+
+
+        .leftNav ul li{
+                border: 1px solid #FFF;
+                text-align: center;
+                line-height: 35px;
+                margin-top: 4px;
+                font-size: large;     
+        }
+
+            .leftNav ul li a{
+                text-decoration:none;
+                color:black;
+                display:block; 
+            }
+
+
+            .leftNav ul li a:hover{
+             color:black;
+             background-color:#C9F;
+            }
+
+          
+           .leftNav .button{
+             background:#FFF74E;
+             border:2px outset White;
+             Height:40px;
+             Width:184px;
+             font-family:sans-serif;
+             font-size:15px;
+              
+              
+            }
+
+             .leftNav .button:hover{
+             background:#C9F;
+             color:black;
+              
+            }
+
+
+            #searchForm {
+                display: -moz-box;
+                    }
+
+            #searchForm, #snippets {
+                  width: 470px;
+                    }
+
+            #searchIcon {
+                        border: 1px solid transparent;
+                       -moz-margin-end: 5px;
+                        height: 38px;
+                        width: 38px;
+                        background: url("chrome://browser/skin/magnifier.png") no-repeat scroll center center / 26px auto transparent;
+                   
+                         }
+
+
+                    .productItm a img{
+                       width:175px;
+                       height:175px;
+                       border:2px inset red;
+                    }
+
+                .productInfo{
+                    background-color: #62A0FA;
+                    border-radius: 3px;
+                    width: 164px;
+                    border: 1px inset;
+                    padding: 7px;
+                    margin-bottom:50px;
+                   
+                    }
+
+                .detailsSpecifics{
+                    font-weight:bold;
+                }
+
+
+
+    </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+      <table style="width:1100px;margin:0 auto">
+       <tr style="width:1100px;height:50px">
+          <td style="width:60px">
+              <img src="images/logo.png" style="width:60px;height:50px" />
+          </td>
+          
+          <td class="auto-style1" style="font-size:large;color:#0d1dd3;font-weight:bold"> The SVU Motorcycle Store Homework</td>
+          
+          <td style="width:900px;text-align:right">
+              <asp:ImageButton ID="ImageButton1" runat="server" Height="25px" ImageUrl="~/images/facebook.png" Width="25px" />&nbsp;&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="25px" ImageUrl="~/images/google.png" Width="25px" />&nbsp;&nbsp;<asp:ImageButton ID="ImageButton3" runat="server" Height="25px" ImageUrl="~/images/twiter.png" Width="25px" />
+          </td>
+      </tr>
+
+       <tr style="width:1100px;height:40px;background-color:#62a0fa">
+          <td colspan="3">
+              <asp:Menu ID="Menu1" runat="server" Font-Size="Large" ForeColor="Black" Orientation="Horizontal">
+
+                  <Items>
+                        <asp:MenuItem Text="Home" Value="Home"  NavigateUrl="~/Index.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Registration" Value="Home" NavigateUrl="~/registration.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Add Products" Value="Products" NavigateUrl="~/addProduct.aspx"></asp:MenuItem>
+                      <asp:MenuItem Text="About Student" Value="About Student"  NavigateUrl="~/About.aspx"></asp:MenuItem>
+                  </Items>
+                
+                          
+                  <StaticHoverStyle BackColor="#CC99FF" ForeColor="White" />
+                  <StaticMenuItemStyle HorizontalPadding="30px" />
+              </asp:Menu>
+          </td>
+      </tr>
+
+          
+       <tr style="width:1100px;height:300px">
+          <td colspan="3">
+              <img src="images/Motorcycle-l.jpg" style="width:1100px;height:300px" />
+          </td>
+      </tr>
+
+       <tr style="width:1100px">
+          <td colspan="3">
+
+              <table>
+                  <tr style="width:1100px;height:300px">
+
+                      <td style="width:191px;height:600px;background-color:#62a0fa;vertical-align:top">
+
+                           
+                          <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                              </asp:ContentPlaceHolder>
+
+                          
+                          <div class="leftNav">
+                              
+                                 &nbsp; &nbsp; &nbsp;
+
+                            <ul>
+                                             
+          
+        
+              
+               
+             
+                   
+
+
+                             
+                                <li><asp:Button ID="Button1" runat="server" Text=" Speed Motorcycle"  CssClass="button"  PostBackUrl="~/Index.aspx"/></li>
+                               
+                                <li><asp:Button ID="Button2" runat="server" Text="Mountain Motorcycle" CssClass="button"  PostBackUrl="~/Index.aspx"/></li>
+                               
+                                <li><asp:Button ID="Button3" runat="server" Text="Ordinary  Motorcycle  " CssClass="button" PostBackUrl="~/Index.aspx"/></li>
+                               
+                                <li><asp:Button ID="Button4" runat="server" Text="Small Motorcycle" CssClass="button" PostBackUrl="~/Index.aspx"/></li>
+                               
+                                <li><asp:Button ID="Button5" runat="server" Text="ATV" CssClass="button" PostBackUrl="~/Index.aspx"/></li>
+                               
+                                <li><asp:Button ID="Button6" runat="server" Text="Replacement parts " CssClass="button" PostBackUrl="~/Index.aspx"/></li>
+                               
+                                 <li><asp:Button ID="Button7" runat="server" Text="Accessories" CssClass="button" PostBackUrl="~/Index.aspx"/></li>
+                               
+                              
+                            </ul>
+
+                           
+                          </div>
+
+                          
+                          
+
+                          
+                      </td>
+                     <td style="border:solid 2px Red;width:907px;vertical-align:top" >
+
+                           <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                           </asp:ContentPlaceHolder>
+
+                        </td>
+                      </tr>
+              </table>
+              
+
+          </td>
+      </tr>
+
+       <tr style="width:1100px;height:20px">
+          <td colspan="3" style="background-color:#62A0FA">
+          </td>
+      </tr>
+
+  </table>
+       
+    
+    </form>
+</body>
+</html>
