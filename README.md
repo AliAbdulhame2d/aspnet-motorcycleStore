@@ -3,8 +3,7 @@
 ##  Projektübersicht
 Dieses Projekt ist eine webbasierte E-Commerce-Anwendung zum Kauf von Motorrädern.
 Es wurde im Rahmen meines Masterstudiums im Bereich Web Science entwickelt und
-konzentriert sich auf die Backend-Entwicklung mit C# und ASP.NET unter Verwendung
-einer klar strukturierten MVC-Architektur.
+konzentriert sich auf die Backend-Entwicklung mit C# und ASP.NET.
 
 Die Anwendung ermöglicht es Benutzern, Motorräder zu durchsuchen, nach Typ zu
 filtern und Produkte zu bewerten, während Administratoren Produkte über einen
